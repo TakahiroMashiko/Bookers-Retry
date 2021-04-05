@@ -20,8 +20,9 @@
   <%= f.text_area :body %>
 </div>
 
-div class="actions">
+<div class="actions">
   <%= f.submit 'Update Book' %>
 </div>
 
 <%= link_to "Show", book_path(@book.id) %> | <%= link_to "Back", books_path %>
+<% end %>
